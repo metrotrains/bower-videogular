@@ -927,7 +927,7 @@ angular.module("com.2fdevs.videogular")
                         API.changeSource(sources);
                     }
                     // Android 2.3 support: https://github.com/2fdevs/videogular/issues/187
-                    if (VG_UTILS.isMobileDevice()) API.mediaElement[0].load();
+                    //if (VG_UTILS.isMobileDevice()) API.mediaElement[0].load();
 
                     $timeout(function () {
                         if (API.autoPlay && (VG_UTILS.isCordova() || !VG_UTILS.isMobileDevice())) {
